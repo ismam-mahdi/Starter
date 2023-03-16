@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //variables are memory location
+      // var x = 10;
+      // var y = 20;
+      // var z = x + y;
+      // document.write(z);
+      //object
+      // var A = {
+      //   Name: "Mahdi",
+      //   Age: 23,
+      //   City: "Dhaka",
+      // };
+      // document.write(A.Name);
+      // document.write(A["Age"]);
+      //if & else statement
+      // var age = 14;
+      // var city = "Dhaka";
+      // if (age >= 18 && city === "Dhaka") {
+      //   document.write("You are adult");
+      // } else {
+      //   document.write("You are not adult");
+      // }
+
+      // var mark = 45;
+      // if (mark >= 80 && mark <= 100) {
+      //   document.write("You get A+");
+      // } else if (mark < 80 && mark >= 70) {
+      //   document.write("You get A");
+      // } else if (mark < 70 && mark >= 60) {
+      //   document.write("You get A-");
+      // } else if (mark < 60 && mark >= 50) {
+      //   document.write("You get B");
+      // } else if (mark < 50 && mark >= 40) {
+      //   document.write("You get C");
+      // } else if (mark < 40 && mark >= 33) {
+      //   document.write("You get E");
+      // } else if (mark < 33 && mark >= 0) {
+      //   document.write("You get F");
+      // }
+      // var mark = 51;
+
+      // switch (true) {
+      //   case mark <= 100 && mark >= 80:
+      //     document.write("A+");
+      //     break;
+      //   case mark < 80 && mark >= 70:
+      //     document.write("A");
+      //     break;
+      //   case mark < 70 && mark >= 60:
+      //     document.write("A-");
+      //     break;
+      //   case mark < 60 && mark >= 50:
+      //     document.write("B");
+      //     break;
+      //   case mark <= 50 && mark >= 40:
+      //     document.write("C");
+      //     break;
+      //   case mark < 40 && mark >= 33:
+      //     document.write("D");
+      //     break;
+      //   case mark <= 50 && mark >= 40:
+      //     document.write("E");
+      //     break;
+      //   default:
+      //     document.write("F");
+      // }
+
+      // var i;
+      // for (i = 0; i < 10; i = i + 1) {
+      //   if (i === 5 || i === 8) {
+      //     continue;
+      //   }
+      //   document.write(i + "   <button>Submit</button>" + "<br>");
+      // }
+      // var i;
+      // for (i = 0; i < 10; i = i + 1) {
+      //   if (i === 3) {
+      //     break;
+      //   }
+      //   document.write(i + "   <button>Submit</button>" + "<br>");
+      // }
+
+      //Entry control Loop
+      // var i = 0;
+      // while (i < 3) {
+      //   document.write(i + "   <button>While loop</button>" + "<br>");
+      //   i = i + 1;
+      // }
+      // var i = 0;
+      // do {
+      //   document.write(i + "   <button>DO while Loop</button>" + "<br>");
+      //   i = i + 1;
+      // } while (i < 3);
+
+      // function addTwoNum() {
+      //   var num1 = 10;
+      //   var num2 = 30;
+      //   var num3 = num1 + num2;
+      //   document.write(num3 + "<br>");
+      // }
+      // addTwoNum();
+      // addTwoNum();
+      // function addTwoNum(num1, num2) {
+      //   var num3 = num1 + num2;
+      //   document.write(num3);
+      // }
+      // addTwoNum(10, 30);
+
+      // function addTwoNum(n1, n2) {
+      //   return n1 + n2;
+      // }
+      // var newValue = addTwoNum(2, 3);
+      // document.write(newValue);
+      // function NewName(name) {
+      //   document.write(name + "<br>");
+      // }
+      // NewName("Jack");
+      // var today = new Date();
+      // switch (today) {
+      //   case 0:
+      //     document.write("today is saturday");
+      //     break;
+      //   case 1:
+      //     document.write("today is sunday");
+      //     break;
+      //   case 2:
+      //     document.write("today is monday");
+      //     break;
+      //   case 3:
+      //     document.write("today is tuesday");
+      //     break;
+      //   case 4:
+      //     document.write("today is wednesday");
+      //     break;
+      //   case 5:
+      //     document.write("today is thursday");
+      //     break;
+
+      //   default:
+      //     document.write("today is friday");
+      // }
+      // var sum = 0;
+      // for (var i = 1; i <= 10; i++) {
+      //   sum += i;
+      //   document.write(sum + " + " + i + "  = " + (sum + i) + "<br>");
+      // }
+      // var category = [
+      //   "Allium",
+      //   "Beverages",
+      //   "Dairy Bread & Eggs",
+      //   "fruit &Vegetables",
+      // ];
+      // var i;
+      // for (i = 0; i < category.length; i = i + 1) {
+      //   document.write(category[i] + "<br>");
+      // }
+      // var category = [
+      //   "Allium",
+      //   "Beverages",
+      //   "Dairy Bread & Eggs",
+      //   "fruit &Vegetables",
+      //   "health",
+      //   "Beauty",
+      // ];
+      // for (var item in category) {
+      //   document.write(category[item] + "<br>");
+      // }
+      // var person = {
+      //   name: "Jack",
+      //   age: 39,
+      //   city: "london",
+      //   height: "6 Feet",
+      // };
+      // for (var item in person) {
+      //   document.write(item + ":" + person[item] + "<br>");
+      // }
+      // var title = "learn with Rabbil";
+      // var titleArray = Array.from(title);
+      // document.write(titleArray[11]);
+      // Array from
+      // var title = "Learn with Rabbil";
+      // var titleArray = Array.from(title);
+      // document.write(titleArray[7]);
+      //filter
+      // var numArray = [30, 20, 38, 57, 60, 80, 90];
+      // var result = numArray.filter(function (value) {
+      //   return value < 40;
+      // });
+      // document.write(result );
+      //Concat
+      // var arr1 = ["A", "B", "C"];
+      // var arr2 = ["D", "E", "F"];
+      // var arr3 = arr1.concat(arr2);
+      // document.write(arr3);
+      //Array Find method
+      // var numArray = [30, 20, 38, 57, 60, 80, 90];
+      // var result = numArray.find(function (value) {
+      //   return value < 50;
+      // });
+      // document.write(result);
+      // var numArray = [30, 20, 38, 57, 60, 80, 90];
+      // var result = numArray.find(function (value) {
+      //   return value > 59;
+      // });
+      // document.write(result);
+      //Find Index method
+      var numArray = [30, 20, 38, 57, 60, 80, 90];
+      //              0    1   2   3   4   5   6
+      var result = numArray.findIndex(function (value) {
+        return value > 57;
+      });
+      document.write(result);
+    </script>
+  </body>
+</html>
